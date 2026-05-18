@@ -1,7 +1,7 @@
 import streamlit as st
 from router import route_document
 
-st.title("📄 Universal Document Intelligence Agent")
+st.title("📄 Document Analyzer")
 
 uploaded_file = st.file_uploader("Upload your document", 
                                   type=["pdf", "txt", "docx", "csv", "xlsx"])
